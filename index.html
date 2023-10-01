@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+
+<body>
+  <button id="myBtn">Click</button>
+  <div id="myModal" class="modal">
+    <div class="modal-contents">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Изменить заявку на оплату</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Заявка</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Согласование</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Вложение</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Журнал</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Контрагент</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Операции</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Оплата (0,00)</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Корректировка</a>
+              </li>
+            </ul>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-5">
+                <div class="txt"><span>Период</span></div>
+                <input class="form-control" id="myInput" type="text" value="" aria-label="readonly input example"
+                  readonly>
+              </div>
+              <div class="col-md-6">
+                <div class="txt"><span>Организация</span></div>
+                <input class="form-control" type="text" value="" aria-label="readonly input example" readonly>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-11 stat">
+                <div class="txt"><span>Статья</span></div>
+                <input class="form-control" id="myInput2" type="text" value="" aria-label="readonly input example"
+                  readonly>
+                <div class="ico">
+                  <p class="icoP">...</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="payment">
+                <div class="payment-month">
+                  <div class="payment-mounth_title">
+                    <span>Месяц:</span>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="payment-mounth_limits">
+                    <div class="payment-mounth_txt">
+                      <span>Лимит</span>
+                    </div>
+                    <div class="payment-mounth_price">
+                      <span>500,00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="payment-mounth_limits">
+                    <div class="payment-mounth_txt">
+                      <span>Согласовано</span>
+                    </div>
+                    <div class="payment-mounth_price">
+                      <span>0,00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="payment-mounth_limits">
+                    <div class="payment-mounth_txt">
+                      <span>На соглас.</span>
+                    </div>
+                    <div class="payment-mounth_price">
+                      <span>500,00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="payment-mounth_limits">
+                    <div class="payment-mounth_txt">
+                      <span>Оплачено</span>
+                    </div>
+                    <div class="payment-mounth_price">
+                      <span>500,00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="payment-mounth_limits">
+                    <div class="payment-mounth_txt">
+                      <span>Остаток</span>
+                    </div>
+                    <div class="payment-mounth_price">
+                      <span>0.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="payment ">
+                <div class="payment-month">
+                  <div class="payment-mounth_title">
+                    <span name="year">&emsp; Год:</span>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="payment-mounth_limits">
+                    <div class="payment-mounth_txt">
+                      <span>Лимит</span>
+                    </div>
+                    <div class="payment-mounth_price">
+                      <span>500,00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="payment-mounth_limits">
+                    <div class="payment-mounth_txt">
+                      <span>Согласовано</span>
+                    </div>
+                    <div class="payment-mounth_price">
+                      <span>0,00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="payment-mounth_limits">
+                    <div class="payment-mounth_txt">
+                      <span>На соглас.</span>
+                    </div>
+                    <div class="payment-mounth_price">
+                      <span>500,00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="payment-mounth_limits">
+                    <div class="payment-mounth_txt">
+                      <span>Оплачено</span>
+                    </div>
+                    <div class="payment-mounth_price">
+                      <span>500,00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="payment-mounth_limits">
+                    <div class="payment-mounth_txt">
+                      <span>Остаток</span>
+                    </div>
+                    <div class="payment-mounth_price">
+                      <span>0.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-3 price">
+                    <div class="txt"><span>Cумма</span></div>
+                    <input class="text form-control" />
+                </div>
+                <div class="col-md-4 nds">
+                    <div class="txt"><span>НДС</span></div>
+                    <select class="phone" id="phone" name="phone" ;>
+                    </select>
+                    <input class="text form-control" />
+                </div>
+                <div class="col-md-4 source ">
+                    <div class="txt"><span>Источник</span></div>
+                    <input class="text form-control" />
+                    <div class="ico">
+                      <p class="btn-close"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-3">
+                <div class="txt1"><span><nobr>Дата заявки</nobr></span></div>
+                <input class="text form-control input-group-data" />
+              </div>
+              <div class="col-md-1"></div>
+              <div class="col-md-3">
+                <div class="txt1"><span><nobr>Оплатить до</nobr></span></div>
+                <input class="text form-control input-group-data" />
+              </div>
+              <div class="col-md-1"></div>
+              <div class="col-md-3">
+                <div class="txt1"><span><nobr>Дата оплаты</nobr></span></div>
+                <input class="text form-control input-group-data" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-11 noteMd ">
+                <div class="txt3"><span>Примечание</span></div>
+                <input class="text form-control input-group-note" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-1" id="monual">
+                <div class="monual">
+                <div class="txt"><span><nobr>Назначение платежа</nobr></span></div>
+                <label for="manual"><span><nobr>Ручной ввод</nobr></span></label>
+                 <input type="checkbox" id="manual" name="manual" />
+              </div>
+            </div>
+               <div class="col-md-9 input-group-monual">
+                 <input class="text form-control " />
+              </div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary " data-bs-dismiss="modal">Отменить</button>
+        <button type="button" class="btn btn-primary">Сохранить</button>
+      </div>
+    </div>
+    <script src="/script/index.js"></script>
+</body>
+
+</html>

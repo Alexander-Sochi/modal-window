@@ -1,0 +1,168 @@
+span{
+    font-size: 14px;
+}
+.row{
+    padding-top: 15px;
+}
+.card-header{
+    width: 1001px;
+    font-size: 13px;
+    margin-left: -27px
+}
+.modal{
+    display: none ;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 1001px;
+    height: 849px;
+    overflow: auto;
+    background-color: #625c5c;
+}
+.modal-contents{
+    background-color: #fff;
+    margin: 15% auto;
+    border: 1px solid #888;
+    width: 1001px;
+    height: 849px;
+
+}
+.modal-header{
+    background-color:#444444 ;
+    color:white;
+}
+.period{
+    display: flex;
+}
+.txt{
+    margin-right: 15px;
+}
+.col-md-5,.col-md-6{
+    display: flex; 
+}
+#myInput{
+    width: 218px;
+    height: 34px;
+}
+#myInput2{
+    width: 766px;
+    height: 34px;
+}
+.stat{
+    display: flex;
+    margin-left: 86px;
+}
+.ico{
+    border: solid 1px #ced4da;
+    border-radius: 0px 6px 6px 0px;  
+    height: 34px;
+}
+.icoP {
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: -3px;
+    position: relative;
+    bottom: 25px;
+}
+.txt2{
+    margin-left: 10px;
+}
+
+
+.payment-mounth_limits {
+    display: flex;
+    justify-content: space-evenly;
+}
+.date{
+    display:flex;
+}
+.date input {
+   width: 135px;
+   height: 34px;
+    background-color: #eeeeee;
+}
+
+.date span{
+    margin-right:0px;
+}
+.payment {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px #AAAAAA;
+    padding-bottom: 10px;
+}
+.article  {
+    width: 747px;
+    height: 34px;
+    background-color: #eeeeee;
+}
+.price input {
+    width: 109px;
+    height: 34px;
+    background-color: #eeeeee;
+}
+.nds input {
+    width: 114px;
+    height: 34px;
+    display: flex;
+    background-color: #eeeeee;
+}
+
+.source input {
+    width: 181px;
+    height: 34px;
+    background-color: #eeeeee;
+}
+.col-md-4{
+    display: flex;
+}
+.price {
+    display: flex;
+}
+.phone{
+    width: 114px;
+    height: 34px;
+    margin-right: 13px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+}
+.btn-close{
+    margin-top: 3px;
+}
+.col-md-3{
+    display: flex;
+}
+.input-group-data{
+    width: 135px;
+    height: 34px;
+}
+.input-group-note input{
+        height: 54px;
+}
+   
+.noteMd{
+    display: flex;
+
+}
+.txt1 span {
+    margin: 1px 15px 1px -36px;
+}
+.txt3 {
+    margin-right: 19px;
+    margin-left: -46px;
+}
+#monual{
+    display: flex;
+    justify-content: flex-end;
+}
+#manual {
+    margin-left: 26px;
+}
+.input-group-monual input{
+    width: 760px;
+    height: 92px;
+    margin-left: -23px;
+
+}
