@@ -192,17 +192,17 @@
                 <div class="col-md-1"></div>
                 <div class="col-md-3 price">
                     <div class="txt"><span>Cумма</span></div>
-                    <input class="text form-control" />
+                    <input class="text form-control" aria-label="readonly input example"  readonly/>
                 </div>
                 <div class="col-md-4 nds">
                     <div class="txt"><span>НДС</span></div>
                     <select class="phone" id="phone" name="phone" ;>
                     </select>
-                    <input class="text form-control" />
+                    <input class="text form-control" aria-label="readonly input example" readonly />
                 </div>
                 <div class="col-md-4 source ">
                     <div class="txt"><span>Источник</span></div>
-                    <input class="text form-control" />
+                    <input class="text form-control" aria-label="readonly input example" readonly />
                     <div class="ico">
                       <p class="btn-close"></p>
                     </div>
@@ -212,17 +212,17 @@
               <div class="col-md-1"></div>
               <div class="col-md-3">
                 <div class="txt1"><span><nobr>Дата заявки</nobr></span></div>
-                <input class="text form-control input-group-data" />
+                <input class="text form-control input-group-data" aria-label="readonly input example" readonly />
               </div>
               <div class="col-md-1"></div>
               <div class="col-md-3">
                 <div class="txt1"><span><nobr>Оплатить до</nobr></span></div>
-                <input class="text form-control input-group-data" />
+                <input class="text form-control input-group-data" aria-label="readonly input example" readonly />
               </div>
               <div class="col-md-1"></div>
               <div class="col-md-3">
                 <div class="txt1"><span><nobr>Дата оплаты</nobr></span></div>
-                <input class="text form-control input-group-data" />
+                <input class="text form-control input-group-data" aria-label="readonly input example" readonly />
               </div>
             </div>
             <div class="row">
@@ -239,11 +239,11 @@
                 <div class="monual">
                 <div class="txt"><span><nobr>Назначение платежа</nobr></span></div>
                 <label for="manual"><span><nobr>Ручной ввод</nobr></span></label>
-                 <input type="checkbox" id="manual" name="manual" />
+                 <input type="checkbox" id="manual" name="manual"  />
               </div>
             </div>
                <div class="col-md-9 input-group-monual">
-                 <input class="text form-control " />
+                 <input class="text form-control inputColor" aria-label="readonly input example" readonly />
               </div>
             </div>
 
@@ -251,9 +251,16 @@
           </div>
         </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary " data-bs-dismiss="modal">Отменить</button>
+      <div class="modal-footers">
+        <div class="infoBtn">
+            <button disabled="disabled" class="info1"><span>id=139390</span></button>
+            <button disabled="disabled" class="info2"><span>Оплачено</span></button>
+        </div>
+      <div class="btnClose">
+         <button type="button" class="btn btn-secondary " data-bs-dismiss="modal">Отменить</button>
         <button type="button" class="btn btn-primary">Сохранить</button>
+      </div>
+       
       </div>
     </div>
     <script src="/script/index.js"></script>
