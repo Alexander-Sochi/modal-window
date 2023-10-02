@@ -1,11 +1,15 @@
 span{
     font-size: 14px;
 }
+
 .row{
     padding-top: 15px;
+    
+}
+.row input{
+    background-color: #eeeeee;
 }
 .card-header{
-    width: 1001px;
     font-size: 13px;
     margin-left: -27px
 }
@@ -15,18 +19,18 @@ span{
     z-index: 1;
     left: 0;
     top: 0;
-    width: 1001px;
-    height: 849px;
     overflow: auto;
     background-color: #625c5c;
 }
-.modal-contents{
-    background-color: #fff;
+
+.modal-contents{ 
+    transition: 20s;
+    position: fixed;
+    left: 102%;
+    background-color: #f7f7f7;
     margin: 15% auto;
     border: 1px solid #888;
     width: 1001px;
-    height: 849px;
-
 }
 .modal-header{
     background-color:#444444 ;
@@ -81,7 +85,6 @@ span{
 .date input {
    width: 135px;
    height: 34px;
-    background-color: #eeeeee;
 }
 
 .date span{
@@ -96,24 +99,23 @@ span{
 .article  {
     width: 747px;
     height: 34px;
-    background-color: #eeeeee;
 }
 .price input {
     width: 109px;
     height: 34px;
-    background-color: #eeeeee;
+  
 }
 .nds input {
     width: 114px;
     height: 34px;
     display: flex;
-    background-color: #eeeeee;
+  
 }
 
 .source input {
     width: 181px;
     height: 34px;
-    background-color: #eeeeee;
+  
 }
 .col-md-4{
     display: flex;
@@ -135,16 +137,15 @@ span{
     display: flex;
 }
 .input-group-data{
-    width: 135px;
     height: 34px;
-}
-.input-group-note input{
-        height: 54px;
+    
 }
    
 .noteMd{
     display: flex;
-
+}
+.noteMd input{
+    background-color: #fff;
 }
 .txt1 span {
     margin: 1px 15px 1px -36px;
@@ -164,5 +165,18 @@ span{
     width: 760px;
     height: 92px;
     margin-left: -23px;
-
+}
+.modal-footers {
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        border-top: solid 1px #e9ecef;
+        padding: 12px 18px 1px 23px;
+     
+}
+.info1{
+    background-color: #e6e6fa;
+}
+.info2{
+    background-color: #eee8aa;
 }
