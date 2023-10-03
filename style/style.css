@@ -1,3 +1,10 @@
+.display-flex{
+    display:flex;
+    height: 34 px;
+}
+
+
+
 span{
     font-size: 14px;
 }
@@ -20,40 +27,36 @@ span{
     left: 0;
     top: 0;
     overflow: auto;
-    background-color: #625c5c;
-   
+    background-color: #625c5c;  
 }
 
-.modal-contents{ 
+#PayReqModal  .modal-contents{ 
     transition: all 2s ease-out;
     position: fixed;
-    left: 102%;
     background-color: #f7f7f7;
     margin: 15% auto;
     border: 1px solid #888;
     width: 1001px;
 }
-.modal-header{
+#PayReqModal .modal-header{
     background-color:#444444 ;
     color:white;
 }
-.period{
+#PayReqModal .period{
     display: flex;
 }
 .txt{
     margin-right: 15px;
 }
-.col-md-5,.col-md-6{
-    display: flex; 
-}
-#myInput{
+
+/* #myInput{
     width: 218px;
     height: 34px;
-}
-#myInput2{
+} */
+/* #myInput2{
     width: 766px;
     height: 34px;
-}
+} */
 .stat{
     display: flex;
     margin-left: 86px;
@@ -74,8 +77,6 @@ span{
 .txt2{
     margin-left: 10px;
 }
-
-
 .payment-mounth_limits {
     display: flex;
     justify-content: space-evenly;
@@ -97,32 +98,15 @@ span{
     border-bottom: solid 2px #AAAAAA;
     padding-bottom: 10px;
 }
-.article  {
+.modal-article  {
     width: 747px;
     height: 34px;
-}
+} 
+
 .price input {
     width: 109px;
     height: 34px;
   
-}
-.nds input {
-    width: 114px;
-    height: 34px;
-    display: flex;
-  
-}
-
-.source input {
-    width: 181px;
-    height: 34px;
-  
-}
-.col-md-4{
-    display: flex;
-}
-.price {
-    display: flex;
 }
 .phone{
     width: 114px;
@@ -134,14 +118,10 @@ span{
 .btn-close{
     margin-top: 3px;
 }
-.col-md-3{
-    display: flex;
-}
 .input-group-data{
     height: 34px;
     
 }
-   
 .noteMd{
     display: flex;
 }
@@ -172,7 +152,7 @@ span{
         display: flex;
         justify-content: space-between;
         border-top: solid 1px #e9ecef;
-        padding: 12px 18px 1px 23px;
+       padding: 12px 18px 1px 23px;
      
 }
 .info1{
