@@ -1,19 +1,19 @@
 .display-flex{
     display:flex;
-    height: 34 px;
+    height: 34px;
+
 }
 
+.padding-top{
+    padding-top: 15px;   
+}
 
-
-span{
+.text-sizing{
     font-size: 14px;
 }
 
-.row{
-    padding-top: 15px;
-    
-}
-.row input{
+
+.display-flex input{
     background-color: #eeeeee;
 }
 .card-header{
@@ -45,28 +45,38 @@ span{
 #PayReqModal .period{
     display: flex;
 }
-.txt{
+.text-positioning {
     margin-right: 15px;
 }
-
-/* #myInput{
-    width: 218px;
-    height: 34px;
-} */
-/* #myInput2{
-    width: 766px;
-    height: 34px;
-} */
+.txt-payment span {
+    margin: 1px 15px 1px -36px;
+}
+.text-note {
+    margin-right: 19px;
+    margin-left: -46px;
+}
+.input-organization {
+    margin-right: 30px;
+}
+.input-note input{
+    background-color: #fff;
+}
+.input-period {
+    margin: 1px 87px 0px -7px;
+}
+.input-article {
+    margin-right: 18px;
+}
 .stat{
     display: flex;
     margin-left: 86px;
 }
-.ico{
+.icon{
     border: solid 1px #ced4da;
     border-radius: 0px 6px 6px 0px;  
     height: 34px;
 }
-.icoP {
+.icon-text {
     font-size: 42px;
     margin-top: 0;
     margin-bottom: 1rem;
@@ -74,41 +84,19 @@ span{
     position: relative;
     bottom: 25px;
 }
-.txt2{
-    margin-left: 10px;
-}
+
 .payment-mounth_limits {
     display: flex;
     justify-content: space-evenly;
 }
-.date{
-    display:flex;
-}
-.date input {
-   width: 135px;
-   height: 34px;
-}
 
-.date span{
-    margin-right:0px;
-}
 .payment {
     display: flex;
     justify-content: space-between;
     border-bottom: solid 2px #AAAAAA;
     padding-bottom: 10px;
 }
-.modal-article  {
-    width: 747px;
-    height: 34px;
-} 
-
-.price input {
-    width: 109px;
-    height: 34px;
-  
-}
-.phone{
+.tax{
     width: 114px;
     height: 34px;
     margin-right: 13px;
@@ -118,46 +106,34 @@ span{
 .btn-close{
     margin-top: 3px;
 }
-.input-group-data{
-    height: 34px;
-    
+.txt-manual{    
+    margin-left: -96px; 
 }
-.noteMd{
-    display: flex;
+
+.manual-checkbox {
+    margin-left: 26px;
 }
-.noteMd input{
-    background-color: #fff;
-}
-.txt1 span {
-    margin: 1px 15px 1px -36px;
-}
-.txt3 {
-    margin-right: 19px;
-    margin-left: -46px;
-}
-#monual{
+.monial-text{
     display: flex;
     justify-content: flex-end;
 }
-#manual {
-    margin-left: 26px;
+.manual-inputs{
+    margin-left:-21px;
 }
-.input-group-monual input{
-    width: 760px;
-    height: 92px;
-    margin-left: -23px;
-}
+
 .modal-footers {
-        height: 60px;
-        display: flex;
-        justify-content: space-between;
-        border-top: solid 1px #e9ecef;
-       padding: 12px 18px 1px 23px;
-     
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px #e9ecef;
+    padding: 12px 18px 1px 23px;
 }
-.info1{
+.manual-input {
+  height: 92px;
+}
+.info-left{
     background-color: #e6e6fa;
 }
-.info2{
+.info-righit{
     background-color: #eee8aa;
 }
